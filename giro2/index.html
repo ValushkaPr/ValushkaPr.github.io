@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>My Giro</title>
+</head>
+<body>
+    <div class="page" id="page">
+        <div class="call">
+            <span>Мы всегда рады помочь по телефону +7923 398 9013</span>
+            <button class="btn__call">ЗАКАЗАТЬ ЗВОНОК</button>
+        </div>
+<hr>
+
+        <header class="header">
+            <div class="header_logo">
+                    <h2><a href="index.php#">My-Giro</a></h2>
+                    </div>
+            <div class="header_menu">
+                <menu class="menu">
+                    <li><a href="#">ПРЕИМУЩЕСТВА</a></li>
+                    <li><a href="#">О НАС</a></li>
+                    <li><a href="#">ОСОБЕННОСТИ</a></li>
+                    <li><a href="#">КАТАЛОГ</a></li>
+                    <li><a href="#">КОМАНДА</a></li>
+                    <li><a href="#">БРЕНДЫ</a></li>
+                    <li><a href="#">ПОЛЕЗНОЕ</a></li>
+      			</menu>
+                </div>
+        </header>
+
+        <article class="info">
+            <div class="info_div">
+                <h1>My-Giro</h1>
+                <p>Крупнейший интернет-магазин гидроскутеров сигвеев и электросамокатов<br>
+                от известных мировых производителей</p><p>
+            <button class="info_btn"> В КАТАЛОГ</button>
+            </p></div>
+        </article>
+
+        <article class="privilegia">
+            <h3>Наши преимущества</h3>
+            <div class="corusel">
+                <button id="btn_next" class="btn_corusel"><img class="btn_corusel_img" src="img/slider/left.png" alt="Кнопка далее"></button>
+                <button id="btn_back" class="btn_corusel"><img class="btn_corusel_img" src="img/slider/right.png" alt="Кнопка обратно"></button>
+            </div>
+            <div class="privilegia_info">
+                <div class="advantages">
+                    <img src="img\advantages\1.png" alt="">
+                    <p>Гарантия качества</p>
+                </div>
+                <div class="advantages">
+                    <img src="img\advantages\2.png" alt="">
+                    <p>Быстрая доставка</p>
+                </div>
+                <div class="advantages">
+                    <img src="img\advantages\3.png" alt="">
+                    <p>Большой ассортимент</p>
+                </div>
+                <div class="advantages">
+                    <img src="img\advantages\4.png" alt="">
+                    <p>Онлайн-Консультант</p>
+                </div>
+            </div>
+
+            <div class="privilege_about">
+                    <h3>О нас</h3>
+                    <br>
+                <p class="ad3">В нашем интернет магазине предоставлен большой выбор гироскутеров, сигвеев и электро самокатов от известных мировых<br> производителей.</p>
+                <br>
+                <br>
+                <p class="ad4">Все товары, представленные на нашем сайте, отобранны лучшими специалистами в этой области. Купите гироскутер,<br> электросамокат или сигвей недорого. Вы можете в нашем интернет-магазине в любое время, когда Вам удобно<br> Доставка заказов осуществляется бессплатно, в любую точку России.</p>
+            </div>
+        </article>
+
+        <section class="subscrib">
+            <h5>Подпишитесь на нашу рассылку<br>и оставайтесь в курсе событий.</h5>
+            <input type="text" placeholder="Имя">
+            <input type="text" placeholder="Email">
+            <button>Подписаться</button>
+        </section>
+
+        <article class="properties">
+            <h3>Особенности гироскутеров</h3>
+            <div class="properties__plus_minus">
+                <div class="properties_minus">
+                    <p>- Трясет</p>
+                    <p>- Нет сиденья</p>
+                    <p>- Только для одного</p>
+                </div>
+                <div class="properties_plus">
+                    <p>+ Исключительная компактность</p>
+                    <p>+ Небольшой вес</p>
+                    <p>+ Экономичность</p>
+                </div>
+                <div class="properties__plus_two">
+                    <p>+ Доступность</p>
+                    <p>+ Манёвренность</p>
+                    <p>+ Простотой в освоении</p>
+                </div>
+            </div>
+            <div class="properties_info">
+                <p>Этих преимуществ гироскутера вполне достаточно для того, чтобы в своей нише данный вид транспорта является одним из самых лучших вариантов!</p>
+            </div>
+        </article>
+<div class="cat">
+<section class="panel" id="catalog">
+        <input type="radio" id="all" name="categories" value="all_item" checked>
+        <input type="radio" id="giroscooters" name="categories" value="giroscooters">
+    <input type="radio" id="electric_scooters" checked name="categories" value="electric_scooters">
+        <input type="radio" id="segways" name="categories" value="segways">
+                    <div class="categories">
+                <form id="catalog_filter">
+ <h3>Каталог</h3>
+    <ul id="categories-container">
+
+        <li>
+    <label for="all" id="all-tab" class="text-upper">Всё</label>
+        </li>
+        <li >
+    <label for="giroscooters" id="giroscooters-tab" class="text-upper">Гироскутеры</label>
+         </li>
+        <li >
+    <label for="electric_scooters" id="electric_scooters-tab" class="text-upper">Электросамокаты</label>
+        </li>
+        <li >
+    <label for="segways" id="segways-tab" class="text-upper">Сигвеи</label>
+        </li>
+    </ul>
+                 </form>
+            </div>
+            <div class="panels">
+        <div id="all_item-container" class="justify-content-between flex-wrap catalog-container">
+
+    </div>
+    </div>
+    <div class="panels">
+        <div id="electric_scooters-container" class=" justify-content-between flex-wrap catalog-container">
+            <div class="c-card">
+                <p class="type">Электросамокат</p>
+    <img src="img/catalog/electric_scooters/1.jpg" alt="card-image">
+        <div class="card-body">
+             <h4 class="text-upper text-center" style="color: #000000;">Xiaomi Mijia Electric Scooter
+                m187 Black</h4>
+        <div class="price-container d-flex justify-content-between align-items-center">
+             <p class="price">1000р.</p>
+         </div>
+             </div>
+</div>
+<div class="c-card">
+    <p class="type">Электросамокат</p>
+    <img src="img/catalog/electric_scooters/2.jpg" alt="card-image">
+        <div class="card-body">
+            <h4 class="text-upper text-center" style="color:#000000;">Xiaomi Mijia Electric Scooter m187 Black</h4>
+        <div class="price-container d-flex justify-content-between align-items-center">
+            <p class="price">1000p.</p>
+        </div>
+        </div>
+</div>
+    <div class="c-card">
+         <p class="type">Электросамокат</p>
+        <img src="img/catalog/electric_scooters/3.jpg" alt="card-image">
+            <div class="card-body">
+                <h4 class="text-upper text-center" style="color: #000000;">Xiaomi Mijia Electric Scooter m187 Black</h4>
+
+        <div class="price-container d-flex justify-content-between align-items-center">
+            <p class="price">1000p.</p>
+        </div>
+            </div>
+    </div>
+    </div>
+        </div>
+        <div class="panels">
+    <div id="giroscooters-container" class="justify-content-between flex-wrap catalog-container">
+        <div class="c-card">
+            <p class="type">Гироскутер</p>
+            <img src="img/catalog/giroscooters/1.jpg" alt="card-image">
+                <div class="card-body">
+                    <h4 class="text-upper text-center" style="color: #000000;">Гироскутер Smart Balance 10 Красный</h4>
+    <div class="price-container d-flex justify-content-between align-items-center">
+    <p class="price">6500p.</p>
+    </div>
+                </div>
+        </div>
+    <div class="c-card">
+          <p class="type">Гироскутер</p>
+        <img src="img/catalog/giroscooters/2.jpg" alt="card-image">
+            <div class="card-body">
+                <h4 class="text-upper text-center" style="color: #000000;">Гироскутер Smart Balance Premium 10 Цветные Молнии</h4>
+        <div class="price-container d-flex justify-content-between align-items-center">
+            <p class="price">10 990p.</p>
+        </div>
+            </div>
+    </div>
+    <div class="c-card">
+         <p class="type">Гироскутер</p>
+        <img src="img/catalog/giroscooters/1.jpg" alt="card-image">
+        <div class="card-body">
+            <h4 class="text-upper text-center" style="color: #000000;">Гироскутер Smart Balance SUV Черная Молния 10.5" Premium PRO</h4>
+            <div class="price-container d-flex justify-content-between align-items-center">
+                <p class="price">8 590p.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="panels">
+    <div id="segways-container" class="justify-content-between flex-wrap catalog-container">
+        <div class="c-card">
+               <p class="type">Сигвeй</p>
+        <img src="img/catalog/segways/1.jpg" alt="card-image">
+            <div class="card-body">
+                <h4 class="text-upper text-center" style="color: #000000;"> Сигвей Xiaomi Ninebot mini Pro Black (Черный)</h4>
+
+        <div class="price-container d-flex justify-content-between align-items-center">
+            <p class="price">31 480p.</p>
+        </div>
+            </div>
+        </div>
+    <div class="c-card">
+          <p class="type">Сигвей</p>
+        <img src="img/catalog/segways/2.jpg" alt="card-image">
+            <div class="card-body">
+                <h4 class="text-upper text-center" style="color: #000000;">Сигвей Xiaomi Ninebot mini Pro White (Белый)</h4>
+
+                    <div class="price-container d-flex justify-content-between align-items-center">
+                        <p class="price">31 480p.</p>
+
+                    </div>
+            </div>
+    </div>
+    <div class="c-card">
+        <p class="type">Сигвей</p>
+        <img src="img/catalog/segways/3.jpg" alt="card-image">
+            <div class="card-body">
+                <h4 class="text-upper text-center" style="color: #000000;">Сигвей Xiaomi Ninebot mini White (Белый)</h4>
+
+                    <div class="price-container d-flex justify-content-between align-items-center">
+                        <p class="price">14 790p.</p>
+                            </div>
+            </div>
+    </div>
+    </div>
+    </div>
+
+</section>
+</div>
+        <article class="personal">
+            <h3>Наши консультанты</h3>
+            <div class="personal_block">
+                <div class="personal_name">
+                    <div class="personal_foto">
+                        <img src="img/consultants/1.png" alt="1">
+                    </div>
+                    <div class="personal_info">
+                        <h4>Светлана Астахова</h4>
+                        <p><em>менеджер по продажам</em></p>
+                        <button>написать</button>
+                    </div>
+                </div>
+                <div class="personal_name">
+                    <div class="personal_foto">
+                        <img src="img/consultants/2.png" alt="2">
+                    </div>
+                    <div class="personal_info">
+                        <h4>Галина Петрова</h4>
+                        <p><em>менеджер по продажам</em></p>
+                        <button>написать</button>
+                    </div>
+                </div>
+                <div class="personal_name">
+                    <div class="personal_foto">
+                        <img src="img/consultants/3.png" alt="3">
+                    </div>
+                    <div class="personal_info">
+                        <h4>Иван Алексеев</h4>
+                        <p><em>менеджер по продажам</em></p>
+                        <button>написать</button>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <ul class="brands">
+            <li>XIAOMI</li>
+            <li>BALANCE</li>
+            <li>KUGOO</li>
+            <li>SMART</li>
+            <li>SUBOR</li>
+            <li>AIRWHEEL</li>
+            <li>LINBOL</li>
+        </ul>
+<div class="content">
+<div class="cont">
+    <img src="img\useful_info\1.jpg" alt="" />
+  <p>Как выбрать гироскутер? <br>Советы перед покупкой </p>
+</div>
+<div class="cont">
+    <img src="img\useful_info\2.jpg" alt="" />
+  <p>Электросамокат.<br>Какой лучше и как выбрать? </p>
+</div>
+<div class="cont">
+    <img src="img\useful_info\3.jpg" alt="" />
+  <p>Как выбрать сигвей? <br>На что обратить внимание? </p>
+</div>
+<div class="cont">
+    <img src="img\useful_info\4.jpg" alt="" />
+  <p>Советы по выбору <br>гироскутера для ребенка </p>
+</div>
+</div>
+    <footer class="footer">
+    <div class="footer_info">
+        <p>В нашем интернет-магазине представлен большой выбор гироскутеров, сигвеев и электросамокатов от известных мировых производителей.</p>
+        <p>Все товары, представленные на нашем сайте отобраны лучшими специалистами в этой области.</p>
+        <p>Copyright © 2023 My-Giro</p>
+    </div>
+    <div class="footer_nav footer_nav__site">
+        <br>
+        <h4>КОМПАНИЯ MY-GIRO</h4>
+        <ul>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Наши преимущества</a></li>
+            <li><a href="#">Наши консультанты</a></li>
+            <a href="https://t.me/phrphrphr"><img src="assets/img/social_icons/vk.png" alt="vk"></a>
+        </ul>
+    </div>
+
+        <div class="footer_nav footer_nav__byer">
+             <br>
+        <h4>ПОКУПАТЕЛЯМ</h4>
+        <ul>
+            <li><a href="#">Каталог</a></li>
+            <li><a href="#">Бренды</a></li>
+            <li><a href="#">Полезная информация</a></li>
+        </ul>
+    </div>
+    <div class="footer_nav footer_nav__help">
+         <br>
+        <h4>ПОМОЩЬ</h4>
+        <ul>
+            <li><a href="#">Как оформить заказ</a></li>
+            <li><a href="#">Способы оплаты</a></li>
+            <li><a href="#">Обмен и возврат товара</a></li>
+           
+        </ul>
+    </div>
+   
+
+</footer>
+</div>
+</body>
